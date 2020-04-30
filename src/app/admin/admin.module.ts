@@ -7,11 +7,10 @@ import { AdminSidebarComponent } from "../admin-sidebar/admin-sidebar.component"
 import { AdminHeaderComponent } from '../admin-header/admin-header.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { AdminAddEventComponent } from '../admin-add-event/admin-add-event.component';
-import { AdminEventListingComponent } from '../admin-event-listing/admin-event-listing.component';
 
 
 @NgModule({
-  declarations: [AdminComponent,AdminSidebarComponent,AdminHeaderComponent,AdminAddEventComponent,AdminEventListingComponent],
+  declarations: [AdminComponent,AdminSidebarComponent,AdminHeaderComponent,AdminAddEventComponent],
   imports: [
     CommonModule,
     AdminRoutingModule,

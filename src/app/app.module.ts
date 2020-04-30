@@ -10,7 +10,6 @@ import { MembersDetailViewComponent } from './members-detail-view/members-detail
 import { UserListingComponent } from './user-listing/user-listing.component';
 import { LoginPageComponent } from './login-page/login-page.component';
 import { AdminDashboardComponent } from './admin-dashboard/admin-dashboard.component';
-import { AdminUserListingComponent } from './admin-user-listing/admin-user-listing.component';
 
 
 
@@ -22,7 +21,6 @@ import { AdminUserListingComponent } from './admin-user-listing/admin-user-listi
     UserListingComponent,
     LoginPageComponent,
     AdminDashboardComponent,
-    AdminUserListingComponent,
   ],
   imports: [
     BrowserModule,

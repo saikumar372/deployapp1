@@ -2,10 +2,8 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { AdminComponent } from './admin.component';
 import { AdminDashboardComponent } from '../admin-dashboard/admin-dashboard.component';
-import { AdminUserListingComponent } from '../admin-user-listing/admin-user-listing.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { AdminAddEventComponent } from '../admin-add-event/admin-add-event.component';
-import { AdminEventListingComponent } from '../admin-event-listing/admin-event-listing.component';
 
 
 const routes: Routes = [
@@ -23,14 +21,6 @@ const routes: Routes = [
     {
       path:'dashboard',
       component:AdminDashboardComponent
-    },
-    {
-      path:'user',
-      component:AdminUserListingComponent
-    },
-    {
-      path:'events',
-      component:AdminEventListingComponent
     },
     {
       path:'add-event',
