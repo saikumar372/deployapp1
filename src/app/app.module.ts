@@ -9,7 +9,6 @@ import { FormsModule, ReactiveFormsModule }   from '@angular/forms';
 import { MembersDetailViewComponent } from './members-detail-view/members-detail-view.component';
 import { UserListingComponent } from './user-listing/user-listing.component';
 import { LoginPageComponent } from './login-page/login-page.component';
-import { AdminDashboardComponent } from './admin-dashboard/admin-dashboard.component';
 
 
 
@@ -20,7 +19,6 @@ import { AdminDashboardComponent } from './admin-dashboard/admin-dashboard.compo
     MembersDetailViewComponent,
     UserListingComponent,
     LoginPageComponent,
-    AdminDashboardComponent,
   ],
   imports: [
     BrowserModule,

@@ -21,7 +21,7 @@ export class AdminLoginComponent implements OnInit {
   ngOnInit(): void {
     let is_logged_in = localStorage.hasOwnProperty('login_data')
     if(is_logged_in){
-      this.router.navigate(['/admin/dashboard'])
+      this.router.navigate(['/admin/login'])
     }
 
     this.myform =this.fb.group({
@@ -50,7 +50,7 @@ export class AdminLoginComponent implements OnInit {
     }else{
       var login_data = this.myform.value
       localStorage.setItem('login_data',JSON.stringify(login_data))
-      this.router.navigate(['/admin/dashboard'])
+      this.router.navigate(['/admin/login'])
     }
   }
   get f() { return this.myform.controls; }
