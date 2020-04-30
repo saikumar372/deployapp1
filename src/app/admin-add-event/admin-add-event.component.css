@@ -1,0 +1,17 @@
+label{
+    color: black;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+}
+.card-header{
+border-bottom:solid 1px black!important
+}
+strong{
+    color: #c84848;
+}
+.maditory-field{
+    color: red;
+    margin-left: 7px;
+    font-size: 15px;
+}

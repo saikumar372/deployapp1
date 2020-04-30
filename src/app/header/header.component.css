@@ -1,0 +1,19 @@
+.header-logo{
+    height: 50px;
+    width: 60px;
+    margin-right: 10px;
+    border-radius: 83px;
+}
+
+@media (max-width: 960px) {
+    .collapse:not(.show){
+        display: block;
+        background-color: darkgrey;
+        margin: 10px;
+        padding: 0px 25px;
+    }
+  }
+  
+  .nav-link .active{
+      color:#51c4bf!important;
+  }
